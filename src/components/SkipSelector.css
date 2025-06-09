@@ -1,0 +1,187 @@
+body{
+ margin: 0;
+ padding:0;
+}
+.main{
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;  
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+}
+
+.selector-wrapper {
+  max-width: 90%;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+  color: #cccccc; /* Light gray for contrast */
+}
+
+.skip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  
+}
+
+.skip-card {
+  background: #1e1e1e; /* Dark card background */
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 350px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, border 0.5s ease;
+  position: relative;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.skip-card:hover {
+  border-color: #007BFF;
+}
+
+.skip-card.active {
+  border-color: #007BFF;
+  box-shadow: 0 4px 20px rgba(0,123,255,0.3);
+}
+
+.skip-header {
+  font-weight: bold;
+  background: #007BFF;
+  color: white;
+  padding: 0.3rem 0;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.skip-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.skip-info p {
+  margin: 0.3rem 0;
+  color: #dddddd; /* Light gray text for content */
+}
+.skip-info p:nth-child(2){
+  color: #d6ff67;
+  font-size: 1.5rem;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #28a745;
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+.road-status {
+  position: absolute;
+  bottom:20px;
+  right:0px;
+  background: #b31d2c; /* red */
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.relative{
+  position: relative;
+}
+
+/* Overlay styles */
+.overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 20vh;
+  background: #1a1a1a;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.overlay p {
+  color: #cccccc;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.overlay-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.overlay-buttons button {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.overlay-buttons .back {
+  background-color: #6c757d;
+  color: white;
+}
+
+.overlay-buttons .continue {
+  background-color: #000dff;
+  color: white;
+}
+.overlay-info{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.overlay-info  p:nth-child(3){
+  color: #d6ff67;
+  font-size: 2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 850px) {
+  .skip-card {
+    width: 90%;
+  }
+
+  .overlay-info {
+    display: block;
+  }
+  .selector-wrapper{
+    margin-bottom: 300px;;
+  }
+}
