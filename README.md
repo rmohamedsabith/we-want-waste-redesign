@@ -38,7 +38,7 @@ A disclaimer message is shown as required.
 ---
 
 ## 📁 Folder Structure
-
+```bash
 css
 Copy
 Edit
@@ -48,22 +48,7 @@ src/
     SkipSelector.css
   App.js
   index.js
-
----
-
- ## 🧪 Live Demo
-
-**CodeSandbox:**  
-👉 [View Live](https://58vvgk-2222.csb.app/)  
-**GitHub Repo:**  
-🔗 https://github.com/rmohamedsabith/we-want-waste-redesign
-
----
-
- ## 🤝 Author
- R.Mohamed Sabith
- Email: sabithrasleem@gmail.com
-GitHub: https://github.com/rmohamedsabith
+```
 
 ---
 ## 🔧 Setup Instructions
@@ -75,4 +60,23 @@ git clone https://github.com/rmohamedsabith/we-want-waste-redesign
 cd we-want-waste-redesign
 npm install
 npm start
+```
+
+---
+
+ ## 🧪 Live Demo
+
+**CodeSandbox:**  
+👉 [View Live](https://xql8cl-3000.csb.app/)  
+**GitHub Repo:**  
+🔗 https://github.com/rmohamedsabith/we-want-waste-redesign
+
+---
+
+ ## 🤝 Author
+
+**R. Mohamed Sabith**  
+📧 Email: [sabithrasleem@gmail.com](mailto:sabithrasleem@gmail.com)  
+🐙 GitHub: [rmohamedsabith](https://github.com/rmohamedsabith)
+
 
