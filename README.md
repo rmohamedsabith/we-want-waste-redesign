@@ -36,21 +36,6 @@ Includes a "Back" and "Continue" button for future steps.
 A disclaimer message is shown as required.
 
 ---
-
-## 📁 Folder Structure
-```bash
-css
-Copy
-Edit
-src/
-  components/
-    SkipSelector.jsx
-    SkipSelector.css
-  App.js
-  index.js
-```
-
----
 ## 🔧 Setup Instructions
 
 To run this project locally:
